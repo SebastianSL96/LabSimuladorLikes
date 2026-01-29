@@ -1,5 +1,5 @@
 // Referencias básicas
-const form = document.getElementById("postForm");
+const form = document.getElementById("post");
 const feed = document.getElementById("feed");
 
 // Manejar el envío del formulario
