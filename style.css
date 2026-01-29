@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+  width: 100%;
+}
+
+button {
+  padding: 6px 12px;
+}
+
+/* Feed y cards muy básicos */
+#feed {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.post-card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.post-card img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.post-title {
+  font-weight: bold;
+  margin: 4px 0;
+}
+
+.post-description {
+  margin: 4px 0 8px 0;
+}
+
+.like-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.like-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.like-button.liked {
+  color: red;
+}
